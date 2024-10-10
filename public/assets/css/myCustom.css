@@ -1,0 +1,46 @@
+ .portfolioCard__portfolioImg__projectType {
+     position: absolute;
+     right: 10px;
+     top: 30px;
+     font-size: 14px;
+     font-weight: 500;
+     background-color: #000;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     border-radius: 50px;
+     padding: 6px 25px;
+     color: #fff;
+     user-select: none;
+     z-index: 1;
+ }
+
+ .movingImageContainer {
+     position: relative;
+     height: 400px;
+     overflow: hidden;
+     width: 100%;
+ }
+
+ @keyframes scrollImage {
+     0% {
+         top: 0;
+     }
+
+     100% {
+         top: -230%;
+     }
+ }
+
+ .movingImageContainer img {
+     position: absolute;
+     object-fit: cover;
+     top: 0;
+     height: auto;
+     width: 100%;
+     transition: top 5s ease;
+ }
+
+ .movingImageContainer img:hover {
+     animation: scrollImage 6s linear infinite;
+     cursor: pointer;
+
+ }
