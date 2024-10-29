@@ -75,9 +75,9 @@ const Home2ProcessSection = () => {
             <div className="col-lg-12">
               <div className="section-title three text-animation">
                 <h2>
-                  Our Solution
-                  <br />
-                  <span>Proccess</span>
+                  What we do
+                  {/* <br />
+                  <span>Proccess</span> */}
                 </h2>
                 <div className="dash-and-paragraph three">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 65">
@@ -85,9 +85,9 @@ const Home2ProcessSection = () => {
                   </svg>
                   <div className="btn-and-paragraph">
                     <p>
-                      Digital agencies can vary in size and specialization. Some
-                      may focus on specific niches, such as healthcare or
-                      e-commerce, while others may offer a comprehensive.
+                      We comprehend the needs of businesses, whether small or
+                      large, and deliver robust solutions tailored to their
+                      requirements.
                     </p>
                   </div>
                 </div>
@@ -122,24 +122,24 @@ const Home2ProcessSection = () => {
                       <CheckListSvgIcon width={100} height={100} />
                     </div>
                     <div className="content">
-                      <h3>Requirement Gathering & Discovery.</h3>
+                      <h3>Project Discovery & Requirements Analysis.</h3>
                       <p>
-                        Begin by understanding the client’s needs, business
-                        goals, target audience, and project scope through
-                        detailed discussions.
+                        We kick off the process by thoroughly assessing the
+                        client's needs, business goals, target audience, and
+                        project scope.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus" /> Initial meeting with the
-                          client.
+                          <i className="bi bi-plus" />
+                          Conduct an initial consultation with the client.
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Gathering project requirements and scope.
+                          Define and document project requirements and scope.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Analyzing competitors and
-                          market trends.
+                          <i className="bi bi-plus" /> Evaluate competitors and
+                          analyze market trends.
                         </li>
                       </ul>
                     </div>
@@ -151,29 +151,29 @@ const Home2ProcessSection = () => {
                       <PlanningSvgIcon width={100} height={100} />
                     </div>
                     <div className="content">
-                      <h3>Planning & Strategy.</h3>
+                      <h3>Project Framework & Strategy.</h3>
                       <p>
-                        Create a detailed project roadmap, timelines, and
-                        technical requirements. This step involves defining the
-                        tech stack, setting milestones, and designing the
-                        architecture.
+                        We create a comprehensive roadmap that outlines
+                        timelines and technical specifications, focusing on
+                        clear objectives, milestone setting, and architectural
+                        design.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus" /> Defining project
-                          objectives and deliverables.
+                          <i className="bi bi-plus" /> Establish project goals
+                          and key deliverables.
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Creating a detailed project roadmap and timeline.
+                          Develop a detailed project timeline and roadmap.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Identifying the tech
-                          stack and necessary resources.
+                          <i className="bi bi-plus" /> Determine the appropriate
+                          tech stack and required resources.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Identifying the tech
-                          stack and necessary resources.
+                          <i className="bi bi-plus" /> - Outline roles and
+                          responsibilities for the project team.
                         </li>
                       </ul>
                     </div>
@@ -185,28 +185,29 @@ const Home2ProcessSection = () => {
                       <WireframeSvgIcon width={100} height={100} />
                     </div>
                     <div className="content">
-                      <h3>Wireframing & Prototyping</h3>
+                      <h3>Interface Design & Prototyping </h3>
                       <p>
-                        Develop wireframes and prototypes to visualize the
-                        project’s structure and user flow, providing clients
-                        with a clear picture of the interface.
+                        We design wireframes and prototypes to outline the
+                        project’s layout and user journey, providing clients
+                        with a clear understanding of the interface.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus" /> Creating low-fidelity
-                          wireframes to outline the structure.
+                          <i className="bi bi-plus" /> Develop initial
+                          wireframes to establish the project’s framework.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Building interactive
-                          prototypes for user flow visualization.
+                          <i className="bi bi-plus" /> Create interactive
+                          prototypes to simulate user interactions.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Collaborating with the
-                          client for feedback on wireframes.
+                          <i className="bi bi-plus" /> Work closely with clients
+                          to incorporate their feedback on designs.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Ensuring the design
-                          aligns with user experience (UX) best practices.
+                          <i className="bi bi-plus" />
+                          Ensure all designs follow user experience (UX)
+                          principles.
                         </li>
                       </ul>
                     </div>
@@ -218,29 +219,30 @@ const Home2ProcessSection = () => {
                       <PaintPaletteSvgIcon height={100} width={100} />
                     </div>
                     <div className="content">
-                      <h3>Design &amp; UI/UX.</h3>
+                      <h3>Visual Design &amp; User Experience </h3>
                       <p>
-                        Create a visually appealing and user-friendly interface.
-                        Focus on user experience (UX) and ensure that the design
-                        reflects the client's branding.
+                        We develop visually engaging and intuitive interfaces
+                        that prioritize user experience (UX) while aligning with
+                        the client's branding.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-plus" />
-                          Crafting a responsive and visually appealing UI
+                          Design responsive and aesthetically pleasing UI
+                          elements.
+                        </li>
+                        <li>
+                          <i className="bi bi-plus" />
+                          Enhance the overall user experience and journey.
+                        </li>
+                        <li>
+                          <i className="bi bi-plus" />
+                          Integrate the client's branding seamlessly into the
                           design.
                         </li>
                         <li>
-                          <i className="bi bi-plus" />
-                          Focusing on enhancing user experience and journey.
-                        </li>
-                        <li>
-                          <i className="bi bi-plus" />
-                          Incorporating client’s branding into the design.
-                        </li>
-                        <li>
-                          <i className="bi bi-plus" /> Ensuring consistency
-                          across different devices and platforms.
+                          <i className="bi bi-plus" /> Maintain consistency
+                          across various devices and platforms.
                         </li>
                       </ul>
                     </div>
@@ -253,17 +255,18 @@ const Home2ProcessSection = () => {
                       <ComputerCodingSvgIcon height={100} width={100} />
                     </div>
                     <div className="content">
-                      <h3>Development (Frontend &amp; Backend).</h3>
+                      <h3>Comprehensive Software Development.</h3>
                       <p>
-                        Start coding based on the finalized design. Build the
-                        frontend using React/React Native and set up the backend
-                        with Node.js, Express, MongoDB, and any other necessary
-                        technologies.
+                        We begin coding based on the approved designs,
+                        developing the frontend with frameworks like React,
+                        Vue.js, and Angular, and establishing the backend using
+                        technologies such as Node.js, Express, Python, Ruby on
+                        Rails, MySQL, MongoDB, and others.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus" /> Building the frontend
-                          using ReactJs, NextJs & React Native.
+                          <i className="bi bi-plus" /> Develop the frontend with
+                          React.js, Next.js, Vue.js, Angular, and React Native.
                         </li>
                         <li>
                           <i className="bi bi-plus" /> Setting up the backend
@@ -271,12 +274,13 @@ const Home2ProcessSection = () => {
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Implementing APIs and connecting frontend with
+                          Implement APIs to connect the frontend with the
                           backend.
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Writing clean, scalable, and efficient code.
+                          Write clean, scalable, and efficient code in a variety
+                          of programming languages.
                         </li>
                       </ul>
                     </div>
@@ -289,30 +293,31 @@ const Home2ProcessSection = () => {
                       <CheckSvgIcon height={100} width={100} />
                     </div>
                     <div className="content">
-                      <h3>Testing & Quality Assurance.</h3>
+                      <h3>Comprehensive Testing & Assurance.</h3>
                       <p>
-                        Conduct thorough testing to ensure functionality,
-                        performance, and security. Fix any bugs and ensure the
-                        app is optimized across all devices.
+                        We carry out extensive testing to ensure optimal
+                        functionality, performance, and security, addressing any
+                        issues and ensuring smooth operation across all
+                        platforms.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus" /> Performing unit,
+                          <i className="bi bi-plus" /> Execute unit,
                           integration, and end-to-end testing.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Identifying and fixing
-                          bugs or performance issues.
+                          <i className="bi bi-plus" /> Detect and resolve bugs
+                          or performance issues.
                         </li>
 
                         <li>
-                          <i className="bi bi-plus" /> Security testing and data
-                          validation.
+                          <i className="bi bi-plus" /> Conduct security
+                          assessments and validate data accuracy.
                         </li>
 
                         <li>
-                          <i className="bi bi-plus" /> Preparing the app for
-                          smooth production release.
+                          <i className="bi bi-plus" /> Ensure the solution is
+                          ready for a flawless production launch.
                         </li>
                       </ul>
                     </div>
@@ -325,32 +330,32 @@ const Home2ProcessSection = () => {
                       <WritingHandSvgIcon height={100} width={100} />
                     </div>
                     <div className="content">
-                      <h3>Client Feedback & Revisions.</h3>
+                      <h3>Client Evaluation & Adjustments.</h3>
                       <p>
-                        Present the developed solution to the client for
-                        feedback. Make necessary adjustments and revisions to
-                        align with the client’s expectations.
+                        We provide the developed solution to the client for
+                        review, incorporating feedback to ensure it fully meets
+                        their needs and expectations.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus" /> Presenting the developed
-                          solution for client review.
+                          <i className="bi bi-plus" /> Share the solution for
+                          client evaluation.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Gathering client feedback
-                          and suggestions.
-                        </li>
-                        <li>
-                          <i className="bi bi-plus" /> Making necessary
-                          revisions based on feedback.
-                        </li>
-                        <li>
-                          <i className="bi bi-plus" /> Refining the final
-                          product to meet client expectations.
+                          <i className="bi bi-plus" /> Collect client feedback
+                          and insights.
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Conducting a final review and approval process.
+                          Apply revisions based on client input.
+                        </li>
+                        <li>
+                          <i className="bi bi-plus" />
+                          Fine-tune the solution to align with client goals.
+                        </li>
+                        <li>
+                          <i className="bi bi-plus" />
+                          Conduct a final review for approval.
                         </li>
                       </ul>
                     </div>
@@ -363,29 +368,29 @@ const Home2ProcessSection = () => {
                       <RocketSvgIcon height={100} width={100} />
                     </div>
                     <div className="content">
-                      <h3>Deployment & Launch.</h3>
+                      <h3>Launch & Deployment.</h3>
                       <p>
-                        Deploy the application to the production environment
-                        (AWS, Firebase, etc.) and ensure everything runs
-                        smoothly. Prepare for launch and monitor initial
-                        performance.
+                        We execute the deployment of the solution to the
+                        production environment (AWS, Firebase, etc.), ensuring
+                        optimal functionality and a successful launch while
+                        closely monitoring initial performance.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-plus" /> Setting up the production
-                          environment (AWS, Firebase, etc).
+                          <i className="bi bi-plus" /> Set up the production
+                          environment (AWS, Firebase, etc.).
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Deploying the application and performing final tests.
+                          Carry out the deployment and conduct final testing.
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Ensuring a smooth, error-free launch.
+                          Facilitate a smooth and error-free launch.
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Monitoring app performance post-launch.
+                          Track performance metrics following the launch.
                         </li>
                       </ul>
                     </div>
@@ -400,24 +405,29 @@ const Home2ProcessSection = () => {
                     <div className="content">
                       <h3>Post-Launch Support & Maintenance.</h3>
                       <p>
-                        Provide ongoing support, monitor the application, fix
-                        bugs, and implement new features as needed.
+                        We are dedicated to ensuring seamless operation through
+                        continuous support, performance monitoring, and timely
+                        enhancements.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-plus" />
-                          Offering ongoing maintenance and bug fixing.
+                          Provide 24/7 support for maintenance and urgent issue
+                          resolution.
                         </li>
                         <li>
                           <i className="bi bi-plus" />
-                          Implementing new features and updates as needed.
+                          Implement new features and updates based on evolving
+                          needs.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Providing technical
-                          support and troubleshooting.
+                          <i className="bi bi-plus" /> Offer responsive
+                          technical support and troubleshooting.
                         </li>
                         <li>
-                          <i className="bi bi-plus" /> Agile Development.
+                          <i className="bi bi-plus" />
+                          Utilize Agile methodologies for quick adaptations and
+                          improvements.
                         </li>
                       </ul>
                     </div>

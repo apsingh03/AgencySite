@@ -10,25 +10,14 @@ const Home2ServicesSection = () => {
             <div className="col-lg-12">
               <div className="section-title four text-animation">
                 <h2>
-                  We Provide These <br />
-                  <span>SERVICES</span>
+                  What we Excel At
+                  {/* <span>Excel</span> At */}
                 </h2>
                 <div className="dash-and-paragraph three">
                   <div className="btn-and-paragraph">
-                    <Link href="/services1">
-                      Explore More
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
                     <p>
-                      Offer a wide range of services to help businesses
-                      establish and enhance their online presence.
+                      Fueling Business Growth Through Innovative Digital
+                      Solutions and Technological Transformation.
                     </p>
                   </div>
                 </div>
@@ -39,10 +28,12 @@ const Home2ServicesSection = () => {
             <div className="service-card">
               <h3>1. Web Development</h3>
               <p>
-                Conducting research to understand the target audience,
-                behaviors.
+                Unlock your business's potential by leveraging the power of the
+                online world. From simple one-page websites to powerful
+                e-commerce platforms, we turn your bold ideas into reality with
+                expertise and creativity.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <a href="#">Color</a>
                 </li>
@@ -58,8 +49,8 @@ const Home2ServicesSection = () => {
                 <li>
                   <a href="#">Visual</a>
                 </li>
-              </ul>
-              <Link className="primary-btn2 btn-hover" href="/service-details">
+              </ul> */}
+              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
                 Explore More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,15 +61,16 @@ const Home2ServicesSection = () => {
                   <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
                 </svg>
                 <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link>
+              </Link> */}
             </div>
             <div className="service-card">
-              <h3>2. Android Development</h3>
+              <h3>2. Android | IOS Development</h3>
               <p>
-                The process of creating software applications for mobile
-                devices, such as smartphones.
+                Meet your business's app and game development needs with our
+                dedicated team of experienced developers, delivering high-end
+                UI/UX solutions tailored to your vision.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <a href="#">Color</a>
                 </li>
@@ -94,8 +86,8 @@ const Home2ServicesSection = () => {
                 <li>
                   <a href="#">Visual</a>
                 </li>
-              </ul>
-              <Link className="primary-btn2 btn-hover" href="/service-details">
+              </ul> */}
+              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
                 Explore More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -106,15 +98,16 @@ const Home2ServicesSection = () => {
                   <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
                 </svg>
                 <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link>
+              </Link> */}
             </div>
             <div className="service-card">
-              <h3>3. IOS Development</h3>
+              <h3>3. SEO Services & Marketing</h3>
               <p>
-                Conducting research to understand the target audience,
-                behaviors.
+                Expand your footprint with our SEO and Social Media Marketing
+                services, strategically targeting your potential users through
+                web page optimization and tailored marketing strategies.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <a href="#">Color</a>
                 </li>
@@ -130,8 +123,8 @@ const Home2ServicesSection = () => {
                 <li>
                   <a href="#">Visual</a>
                 </li>
-              </ul>
-              <Link className="primary-btn2 btn-hover" href="/service-details">
+              </ul> */}
+              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
                 Explore More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -142,15 +135,16 @@ const Home2ServicesSection = () => {
                   <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
                 </svg>
                 <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link>
+              </Link> */}
             </div>
             <div className="service-card">
-              <h3>4. Seo Services & Marketing</h3>
+              <h3>4. Blockchain Development</h3>
               <p>
-                Conducting research to understand the target audience,
-                behaviors.
+                Get all your blockchain development needs from smart contract
+                development to NFTs to complex blockchain games delivered by our
+                team.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <a href="#">Color</a>
                 </li>
@@ -166,8 +160,8 @@ const Home2ServicesSection = () => {
                 <li>
                   <a href="#">Visual</a>
                 </li>
-              </ul>
-              <Link className="primary-btn2 btn-hover" href="/service-details">
+              </ul> */}
+              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
                 Explore More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,15 +172,17 @@ const Home2ServicesSection = () => {
                   <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
                 </svg>
                 <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link>
+              </Link> */}
             </div>
             <div className="service-card">
-              <h3>5. Blockchain Development</h3>
+              <h3>5. Tech Consulting</h3>
               <p>
-                Web development is the process of building and maintaining
-                websites or web applications.
+                Elevate your business's technical landscape with us. Our
+                dedicated team of managers not only understands your needs but
+                also optimizes workflow and boosts customer retention, ensuring
+                seamless success every step of the way.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <a href="#">Color</a>
                 </li>
@@ -202,8 +198,8 @@ const Home2ServicesSection = () => {
                 <li>
                   <a href="#">Visual</a>
                 </li>
-              </ul>
-              <Link className="primary-btn2 btn-hover" href="/service-details">
+              </ul> */}
+              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
                 Explore More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -214,15 +210,17 @@ const Home2ServicesSection = () => {
                   <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
                 </svg>
                 <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link>
+              </Link> */}
             </div>
             <div className="service-card">
-              <h3>6. Cloud Service</h3>
+              <h3>6. Branding & Design</h3>
               <p>
-                Conducting research to understand the target audience,
-                behaviors.
+                Hand in hand with our backend team, our frontend developers and
+                designers are dedicated to shaping your online presence and
+                branding. Together, we craft compelling designs that leave a
+                lasting impression.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <a href="#">Color</a>
                 </li>
@@ -238,8 +236,8 @@ const Home2ServicesSection = () => {
                 <li>
                   <a href="#">Visual</a>
                 </li>
-              </ul>
-              <Link className="primary-btn2 btn-hover" href="/service-details">
+              </ul> */}
+              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
                 Explore More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -250,7 +248,7 @@ const Home2ServicesSection = () => {
                   <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
                 </svg>
                 <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

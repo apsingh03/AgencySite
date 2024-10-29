@@ -9,7 +9,7 @@ const Home2PortfolioSection = () => {
           <div className="col-lg-12">
             <div className="section-title text-animation">
               <h2>
-                Work <span>20 + </span>
+                Explore our Portfolio <span>20 + </span>
               </h2>
               <div className="dash-and-paragraph three">
                 <div className="dash" />

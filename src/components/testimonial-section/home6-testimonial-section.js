@@ -10,159 +10,225 @@ import SwiperCore, {
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const Home6TestimonialSection = () => {
-    const settings = useMemo(() => {
-        return {
-            slidesPerView: "auto",
-            speed: 1500,
-            spaceBetween: 25,
-            // autoplay: {
-            // 	delay: 2500, // Autoplay duration in milliseconds
-            // 	disableOnInteraction: false,
-            // },
-            navigation: {
-              nextEl: ".next-1",
-              prevEl: ".prev-1",
-            },
-        
-            breakpoints: {
-              280: {
-                slidesPerView: 1,
-              },
-              386: {
-                slidesPerView: 1,
-              },
-              576: {
-                slidesPerView: 1,
-              },
-              768: {
-                slidesPerView: 2,
-              },
-              992: {
-                slidesPerView: 2,
-              },
-              1200: {
-                slidesPerView: 3,
-              },
-              1400: {
-                slidesPerView: 3,
-              },
-            },
-        };
-      }, []);
+  const settings = useMemo(() => {
+    return {
+      slidesPerView: "auto",
+      speed: 1500,
+      spaceBetween: 25,
+      // autoplay: {
+      // 	delay: 2500, // Autoplay duration in milliseconds
+      // 	disableOnInteraction: false,
+      // },
+      navigation: {
+        nextEl: ".next-1",
+        prevEl: ".prev-1",
+      },
+
+      breakpoints: {
+        280: {
+          slidesPerView: 1,
+        },
+        386: {
+          slidesPerView: 1,
+        },
+        576: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 2,
+        },
+        1200: {
+          slidesPerView: 3,
+        },
+        1400: {
+          slidesPerView: 3,
+        },
+      },
+    };
+  }, []);
   return (
     <div className="home6-testimonial-section mb-130">
-    <div className="container-lg container-fluid">
+      <div className="container-lg container-fluid">
         <div className="row mb-50">
-        <div className="col-lg-12">
+          <div className="col-lg-12">
             <div className="testimonial-wrapper">
-            <Swiper {...settings} className="swiper home6-testimonial-slider">
+              <Swiper {...settings} className="swiper home6-testimonial-slider">
                 <div className="swiper-wrapper">
-                <SwiperSlide className="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <div className="testimonial-card">
-                    <span>Great Services!</span>
-                    <p>Axleo is a user-friendly, cloud-based solution that simplifies
-                        project management that high-quality results.</p>
-                    <div className="author-area">
+                      <span>Great Services!</span>
+                      <p>
+                        I had a fantastic experience working with Ajay for my
+                        web development project. Their team was professional,
+                        responsive, and truly understood my vision. The final
+                        website exceeded my expectations in both design and
+                        functionality. They met all deadlines and provided
+                        excellent post-launch support. I highly recommend them
+                        for anyone seeking quality web development services.
+                      </p>
+                      <div className="author-area">
+                        {/* <div className="author-img">
+                          <img
+                            src="assets/img/home6/testi-author-img1.png"
+                            alt=""
+                          />
+                        </div> */}
+                        <div className="author-content">
+                          <h6>Adarsh Thakur </h6>
+                          {/* <span>CTO, Aploxn</span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="testimonial-card">
+                      {/* <span>Good Support!</span> */}
+                      <p>
+                        I highly recommend STW for development works. They
+                        delivered a high-quality website that was tailored to my
+                        needs. Great experience overall.
+                      </p>
+                      <div className="author-area">
+                        {/* <div className="author-img">
+                          <img
+                            src="assets/img/home6/testi-author-img2.png"
+                            alt=""
+                          />
+                        </div> */}
+                        <div className="author-content">
+                          <h6>Mitul Jain</h6>
+                          {/* <span>CEO, Drivco</span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="testimonial-card">
+                      <span>Great Services!</span>
+                      <p>
+                        Good experience with the team for web development, SEO,
+                        and design. They crafted a stunning website that
+                        perfectly represents my brand and ranks well in search
+                        engines. Their attention to detail and responsiveness
+                        throughout the project were impressive. I’m very
+                        satisfied with the results.
+                      </p>
+                      <div className="author-area">
+                        {/* <div className="author-img">
+                          <img
+                            src="assets/img/home6/testi-author-img3.png"
+                            alt=""
+                          />
+                        </div> */}
+                        <div className="author-content">
+                          <h6>Rohan Singh </h6>
+                          {/* <span>CTO, Bidout</span> */}
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="testimonial-card">
+                      <span>Great Services!</span>
+                      <p>
+                        Axleo is a user-friendly, cloud-based solution that
+                        simplifies project management that high-quality results.
+                      </p>
+                      <div className="author-area">
                         <div className="author-img">
-                        <img src="assets/img/home6/testi-author-img1.png" alt="" />
+                          <img
+                            src="assets/img/home5/testi-author-img2.png"
+                            alt=""
+                          />
                         </div>
                         <div className="author-content">
-                        <h6>Robert Kcarery </h6>
-                        <span>CTO, Aploxn</span>
+                          <h6>Robert Jhonson </h6>
+                          <span>CTO, Zenfy</span>
                         </div>
+                      </div>
                     </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
                     <div className="testimonial-card">
-                    <span>Good Support!</span>
-                    <p>Axleo is an easy-to-use cloud-based system that organizing projects
-                        easier while producing excellent outcomes.</p>
-                    <div className="author-area">
+                      <span>Great Services!</span>
+                      <p>
+                        Axleo provides a task assignment, and monitoring tool
+                        that makes sure teams remain structured and fulfill
+                        targets.
+                      </p>
+                      <div className="author-area">
                         <div className="author-img">
-                        <img src="assets/img/home6/testi-author-img2.png" alt="" />
+                          <img
+                            src="assets/img/home5/testi-author-img3.png"
+                            alt=""
+                          />
                         </div>
                         <div className="author-content">
-                        <h6>Gabriel Harrison</h6>
-                        <span>CEO, Drivco</span>
+                          <h6>Daniel Scoot</h6>
+                          <span>CEO, Catch</span>
                         </div>
+                      </div>
                     </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-card">
-                    <span>Great Services!</span>
-                    <p>Axleo is a project planning, task assignment, and tracking, ensuring
-                        teams stay organized and meet deadlines.</p>
-                    <div className="author-area">
-                        <div className="author-img">
-                        <img src="assets/img/home6/testi-author-img3.png" alt="" />
-                        </div>
-                        <div className="author-content">
-                        <h6>Jasmine Quinn </h6>
-                        <span>CTO, Bidout</span>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-card">
-                    <span>Great Services!</span>
-                    <p>Axleo is a user-friendly, cloud-based solution that simplifies
-                        project management that high-quality results.</p>
-                    <div className="author-area">
-                        <div className="author-img">
-                        <img src="assets/img/home5/testi-author-img2.png" alt="" />
-                        </div>
-                        <div className="author-content">
-                        <h6>Robert Jhonson </h6>
-                        <span>CTO, Zenfy</span>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-card">
-                    <span>Great Services!</span>
-                    <p>Axleo provides a task assignment, and monitoring tool that makes sure
-                        teams remain structured and fulfill targets.</p>
-                    <div className="author-area">
-                        <div className="author-img">
-                        <img src="assets/img/home5/testi-author-img3.png" alt="" />
-                        </div>
-                        <div className="author-content">
-                        <h6>Daniel Scoot</h6>
-                        <span>CEO, Catch</span>
-                        </div>
-                    </div>
-                    </div>
-                </SwiperSlide>
+                  </SwiperSlide>
                 </div>
-            </Swiper>
-            <div className="slider-btn-group two">
+              </Swiper>
+              <div className="slider-btn-group two">
                 <div className="slider-btn prev-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width={15} height={11} viewBox="0 0 15 11">
-                    <path fillRule="evenodd" clipRule="evenodd" d="M0.416666 5.9668H15V4.7168H0.416666V5.9668Z" />
-                    <path fillRule="evenodd" clipRule="evenodd" d="M1.04115 4.7168C3.98115 4.7168 6.38281 7.3018 6.38281 10.0585V10.6835H5.13281V10.0585C5.13281 7.96596 3.26448 5.9668 1.04115 5.9668H0.416979V4.7168H1.04115Z">
-                    </path>
-                    <path fillRule="evenodd" clipRule="evenodd" d="M1.04115 5.96667C3.98115 5.96667 6.38281 3.38167 6.38281 0.625V0H5.13281V0.625C5.13281 2.71833 3.26448 4.71667 1.04115 4.71667H0.416979V5.96667H1.04115Z">
-                    </path>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={15}
+                    height={11}
+                    viewBox="0 0 15 11"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M0.416666 5.9668H15V4.7168H0.416666V5.9668Z"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M1.04115 4.7168C3.98115 4.7168 6.38281 7.3018 6.38281 10.0585V10.6835H5.13281V10.0585C5.13281 7.96596 3.26448 5.9668 1.04115 5.9668H0.416979V4.7168H1.04115Z"
+                    ></path>
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M1.04115 5.96667C3.98115 5.96667 6.38281 3.38167 6.38281 0.625V0H5.13281V0.625C5.13281 2.71833 3.26448 4.71667 1.04115 4.71667H0.416979V5.96667H1.04115Z"
+                    ></path>
+                  </svg>
                 </div>
                 <div className="slider-btn next-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width={15} height={11} viewBox="0 0 15 11">
-                    <path fillRule="evenodd" clipRule="evenodd" d="M14.5833 5.9668H0V4.7168H14.5833V5.9668Z" />
-                    <path fillRule="evenodd" clipRule="evenodd" d="M13.9589 4.7168C11.0189 4.7168 8.61719 7.3018 8.61719 10.0585V10.6835H9.86719V10.0585C9.86719 7.96596 11.7355 5.9668 13.9589 5.9668H14.583V4.7168H13.9589Z">
-                    </path>
-                    <path fillRule="evenodd" clipRule="evenodd" d="M13.9589 5.96667C11.0189 5.96667 8.61719 3.38167 8.61719 0.625V0H9.86719V0.625C9.86719 2.71833 11.7355 4.71667 13.9589 4.71667H14.583V5.96667H13.9589Z">
-                    </path>
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={15}
+                    height={11}
+                    viewBox="0 0 15 11"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M14.5833 5.9668H0V4.7168H14.5833V5.9668Z"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M13.9589 4.7168C11.0189 4.7168 8.61719 7.3018 8.61719 10.0585V10.6835H9.86719V10.0585C9.86719 7.96596 11.7355 5.9668 13.9589 5.9668H14.583V4.7168H13.9589Z"
+                    ></path>
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M13.9589 5.96667C11.0189 5.96667 8.61719 3.38167 8.61719 0.625V0H9.86719V0.625C9.86719 2.71833 11.7355 4.71667 13.9589 4.71667H14.583V5.96667H13.9589Z"
+                    ></path>
+                  </svg>
                 </div>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-        </div>
-        <div className="row">
+        {/* <div className="row">
         <div className="col-lg-12 d-flex justify-content-center">
             <div className="testimonial-bottom-area">
             <ul className="rating-area">
@@ -234,10 +300,10 @@ const Home6TestimonialSection = () => {
             <p>Total rating 5.0 based on 2000 reviews</p>
             </div>
         </div>
-        </div>
+        </div> */}
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Home6TestimonialSection
+export default Home6TestimonialSection;

@@ -14,9 +14,9 @@ const Home2About = () => {
             <div className="col-lg-12">
               <div className="section-title three text-animation">
                 <h2>
-                  ABOUT OUR
-                  <br />
-                  <span>COMPANY</span>
+                  Understanding Your Needs
+                  {/* <br />
+                  <span>COMPANY</span> */}
                 </h2>
                 <div className="dash-and-paragraph three">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 65">
@@ -24,9 +24,12 @@ const Home2About = () => {
                   </svg>
                   <div className="btn-and-paragraph">
                     <p>
-                      Digital agencies can vary in size and specialization. Some
-                      may focus on specific niches, such as healthcare or
-                      e-commerce, while others may offer a comprehensive.
+                      Driven by innovation, SinTech Works delivers advanced
+                      digital solutions designed to accelerate your business
+                      growth. We specialize in crafting custom software,
+                      applications, and platforms that are built to perform,
+                      ensuring every product aligns with your business goals and
+                      enhances your digital capabilities.
                     </p>
                   </div>
                 </div>
@@ -60,7 +63,7 @@ const Home2About = () => {
                     <div className="content">
                       <div className="number">
                         <h3 className="counter">
-                          <CountUp end={145} />
+                          <CountUp end={50} />
                         </h3>
                         <span>+</span>
                       </div>
@@ -101,7 +104,7 @@ const Home2About = () => {
                         </h3>
                         <span>%</span>
                       </div>
-                      <p>Service Satisfaction Guarentee.</p>
+                      <p>24 &#215; 7 Personal Support.</p>
                     </div>
                   </li>
                   <li className="single-counter">

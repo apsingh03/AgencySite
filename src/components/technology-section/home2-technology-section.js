@@ -6,16 +6,13 @@ const Home2TechnologySection = () => {
       <div className="container-lg container-fluid">
         <div className="row mb-60">
           <div className="section-title four white text-animation">
-            <h2>
-              We Used Advance <br />
-              <span>TECHNOLOGY</span>
-            </h2>
+            <h2>Tech Stack</h2>
             <div className="dash-and-paragraph three">
               <div className="btn-and-paragraph">
-                <p>
+                {/* <p>
                   Offer a wide range of services to help businesses establish
                   and enhance their online presence.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
