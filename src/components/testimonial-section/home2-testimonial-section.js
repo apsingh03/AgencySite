@@ -45,15 +45,15 @@ const Home2TestimonialSection = () => {
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="row g-md-4 gy-5">
-                      <div className="col-md-5 d-flex justify-content-md-center">
+                      {/* <div className="col-md-5 d-flex justify-content-md-center">
                         <div className="author-img magnetic-item">
                           <img
                             src="assets/img/home2/testimonial-img-01.png"
                             alt=""
                           />
                         </div>
-                      </div>
-                      <div className="col-md-7">
+                      </div> */}
+                      <div className="col-md-12">
                         <div className="testimonal-content">
                           <span>Great Agency!</span>
                           <p>
@@ -78,15 +78,15 @@ const Home2TestimonialSection = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="row g-lg-4 gy-5">
-                      <div className="col-md-5 d-flex justify-content-md-center">
+                      {/* <div className="col-md-5 d-flex justify-content-md-center">
                         <div className="author-img magnetic-item">
                           <img
                             src="assets/img/home2/testimonial-img-02.png"
                             alt=""
                           />
                         </div>
-                      </div>
-                      <div className="col-md-7">
+                      </div> */}
+                      <div className="col-md-12">
                         <div className="testimonal-content">
                           <span>Great Agency!</span>
                           <p>
@@ -106,15 +106,15 @@ const Home2TestimonialSection = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="row g-lg-4 gy-5">
-                      <div className="col-md-5 d-flex justify-content-md-center">
+                      {/* <div className="col-md-5 d-flex justify-content-md-center">
                         <div className="author-img magnetic-item">
                           <img
                             src="assets/img/home2/testimonial-img-03.png"
                             alt=""
                           />
                         </div>
-                      </div>
-                      <div className="col-md-7">
+                      </div> */}
+                      <div className="col-md-12">
                         <div className="testimonal-content">
                           <span>Great Agency!</span>
                           <p>
@@ -200,7 +200,6 @@ const Home2TestimonialSection = () => {
           </div>
         </div>
       </div>
-     
     </>
   );
 };

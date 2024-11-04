@@ -9,8 +9,12 @@ const Home2BannerSection = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-7 col-lg-7 d-flex align-items-center">
               <div className="banner-content-wrap">
-                <h1 className="text-animation2" style={{ fontSize: "70px" }}>
-                  Empowering Businesses Innovative Software Development.
+                <h1
+                  className="text-animation2"
+                  // style={{ fontSize: "40px", lineHeight: "5px" }}
+                >
+                  Empowering <span> Businesses</span> Innovative <br />{" "}
+                  <span>Software</span> Development.
                 </h1>
                 <div className="banner-content">
                   <div className="vector-and-review  text-animation">
@@ -65,7 +69,10 @@ const Home2BannerSection = () => {
             </div>
             <div className="col-xxl-4 col-xl-5 col-lg-5 d-lg-flex d-none">
               <div className="banner-img magnetic-item">
-                <img src="assets/img/home2/banner-img.png" alt="" />
+                <img
+                  src="assets/img/downloaded/girlSittingOnChair.png"
+                  alt="It Service"
+                />
               </div>
             </div>
           </div>

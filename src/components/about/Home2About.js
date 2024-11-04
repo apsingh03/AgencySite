@@ -174,7 +174,10 @@ const Home2About = () => {
                 <div className="col-sm-5">
                   <div className="about-left">
                     <div className="about-img animet-images magnetic-item">
-                      <img src="assets/img/home2/about-02.jpg" alt="" />
+                      <img
+                        src="assets/img/downloaded/section2NeedsSmall.jpg"
+                        alt=""
+                      />
                     </div>
                     {/* <p className="text-animation2">
                       Some may focus on specific niches, such as healthcare or
@@ -184,7 +187,10 @@ const Home2About = () => {
                 </div>
                 <div className="col-sm-7 d-sm-flex  d-none">
                   <div className="about-right-img animet-images magnetic-item">
-                    <img src="assets/img/home2/about-01.jpg" alt="" />
+                    <img
+                      src="assets/img/downloaded/section2NeedsLarge.jpg"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>

@@ -27,45 +27,8 @@ const WhatsAppBtn = () => {
     {
       id: 1,
       name: "Ajay Pratap Singh",
-      mobileNo: "917742219565",
+      mobileNo: "917302119565",
       title: "Developer",
-    },
-    { id: 2, name: "Agent 2", mobileNo: "918778329322", title: "Tech Support" },
-    {
-      id: 3,
-      name: "Agent 3",
-      mobileNo: "918778329322",
-      title: "Customer Care",
-    },
-    {
-      id: 4,
-      name: "Agent 4",
-      mobileNo: "918778329322",
-      title: "Customer Care",
-    },
-    {
-      id: 5,
-      name: "Agent 5",
-      mobileNo: "918778329322",
-      title: "Customer Care",
-    },
-    {
-      id: 6,
-      name: "Agent 6",
-      mobileNo: "918778329322",
-      title: "Customer Care",
-    },
-    {
-      id: 7,
-      name: "Agent 7",
-      mobileNo: "918778329322",
-      title: "Customer Care",
-    },
-    {
-      id: 8,
-      name: "Agent 8",
-      mobileNo: "918778329322",
-      title: "Customer Care",
     },
   ];
 

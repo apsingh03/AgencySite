@@ -59,7 +59,6 @@ const Home2CounterArea = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -69,12 +68,12 @@ const Home2CounterArea = () => {
         className="home2-inner-banner"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url(assets/img/home2/inner-baner-bg.jpg)",
+            "linear-gradient(90deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url(https://images.unsplash.com/photo-1687603917313-ccae1a289a9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
         }}
       >
-        <div className="clutch-logo btn_wrapper">
-          <img src="assets/img/home2/clitch-big.png" alt="" />
-        </div>
+        {/* <div className="clutch-logo btn_wrapper">
+          <img src="assets/img/home2/clitch-big.png"    alt="" />
+        </div> */}
         <div className="container-lg container-fluid">
           <div className="row">
             <div className="col-lg-12">
