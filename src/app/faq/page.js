@@ -2,6 +2,12 @@ import Footer from "@/components/Footer/Footer";
 import Header from "@/components/header/Header";
 import React from "react";
 
+export const metadata = {
+  title: "SinTech Works LLP",
+  icons: {
+    icon: "assets/img/downloaded/companyLogo.jpg",
+  },
+};
 const page = () => {
   return (
     <>

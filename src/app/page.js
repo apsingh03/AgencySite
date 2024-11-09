@@ -17,7 +17,7 @@ import Header2 from "@/components/header/Header2";
 export const metadata = {
   title: "SinTech Works LLP",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "assets/img/downloaded/companyLogo.jpg",
   },
 };
 export default function Home() {
@@ -30,11 +30,7 @@ export default function Home() {
       <Home2CounterArea />
       <Home2ProcessSection />
       <Home2PortfolioSection />
-
-      {/* <Home1TestimonialSection /> */}
       <Home2TestimonialSection />
-      {/* <Home6TestimonialSection /> */}
-
       <Home2TechnologySection />
       <Home2ContactSection />
       <Footer2 />

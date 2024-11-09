@@ -1,7 +1,16 @@
 import Footer2 from "@/components/Footer/Footer2";
 import Header from "@/components/header/Header";
+import PortfolioProjectBigSize from "@/components/portfolioProject/PortfolioProjectBigSize";
+import PortfolioProjectSmallSize from "@/components/portfolioProject/PortfolioProjectSmallSize";
 import Link from "next/link";
 import React from "react";
+
+export const metadata = {
+  title: "SinTech Works LLP",
+  icons: {
+    icon: "assets/img/downloaded/companyLogo.jpg",
+  },
+};
 
 const Portfolioesonary = () => {
   return (
@@ -30,478 +39,154 @@ const Portfolioesonary = () => {
               </div>
             </div>
           </div>
+
           <div className="row mb-130 gy-lg-5 g-4 justify-content-between">
-            <div className="col-lg-6 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="#">Mern Stack</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Mysql</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Redux Toolkit</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Socket.io </Link>
-                    </li>
-                    <li>
-                      <Link href="#">AWS </Link>
-                    </li>
-                    <li>
-                      <Link href="#">Payment Gateway </Link>
-                    </li>
-                    <li>
-                      <Link href="#">Responsive Design </Link>
-                    </li>
-                    <li>
-                      <Link href="#">Admin Panel </Link>
-                    </li>
-                    <li>
-                      <Link href="#">Dynamic Carousels</Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
+            <PortfolioProjectBigSize
+              tagsArray={[
+                "Mern Stack",
+                "Redux Toolkit",
+                "Mysql",
+                "AWS",
+                "Cart",
+                "Socket.io",
+                "Admin Panel",
+                "Payment Gateway",
+                "Responsive Design",
+                "Formik",
+                "Dynamic Carousels",
+                "WishList",
+                "Dynamic Menus",
+                "Dynamic Product Filters",
+                "Real Time Order Tracking ",
+                "Debounce Search",
+                "We can control Everything from Admin Panel",
+              ]}
+              typeOfApp={"WebApp"}
+              projectName={"WearKart"}
+              imgLink={"projects/WearKartHomePage.png"}
+              imageAlt="Wear Kart Project Demostration"
+              projectLink="/projectDetails/wearkart-webapp"
+            />
 
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">WearKart.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="#">React Native</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Node JS</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Express JS</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Redux Toolkit</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Redux Persist</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Payment Gateway</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Skelton UI</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Dynamic Carousels</Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
-
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">WearKart.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="#">Django</Link>
-                    </li>
-                    <li>
-                      <Link href="#">ReactJs</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Mysql</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Redux Toolkit</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Admin Panel </Link>
-                    </li>
-                    <li>
-                      <Link href="#">Responsive Design </Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
-
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">Sinbit Trades.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="#">Mern Stack</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Mysql</Link>
-                    </li>
-
-                    <li>
-                      <Link href="#">Payment Gateway </Link>
-                    </li>
-                    <li>
-                      <Link href="#">Responsive Design </Link>
-                    </li>
-                    <li>
-                      <Link href="#">Admin Panel </Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
-
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">MobileKart.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="#">React Native</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Django Rest Framework</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Redux Toolkit</Link>
-                    </li>
-
-                    <li>
-                      <Link href="#">Payment Gateway</Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
-
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">MobileKart.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="#">React Js</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Bootstrap</Link>
-                    </li>
-
-                    <li>
-                      <Link href="#">Animation </Link>
-                    </li>
-                    <li>
-                      <Link href="#">Responsive Design </Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
-
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">Personal Portfolio.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-5 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="#">Mern Stack</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Payment Gateway</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Responsive Design </Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
-
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">Expense Tracker.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="#">Mern Stack</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Socket.io</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Responsive Design </Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
-
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">Chatting APP.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-5 col-md-6">
-              <div className="portfolio-card two magnetic-item">
-                <div className="image-and-tag">
-                  <ul className="tag">
-                    <li>
-                      <Link href="/portfolio-manonery">React JS</Link>
-                    </li>
-                    <li>
-                      <Link href="/portfolio-manonery">Responsive Design </Link>
-                    </li>
-                  </ul>
-                  <div className="portfolio-img">
-                    <div className="portfolioCard__portfolioImg__projectType">
-                      <span href="#" className="text-white">
-                        Android App
-                      </span>
-                    </div>
-
-                    <div className="movingImageContainer">
-                      <img
-                        src="projects/clothecommerce.sintechworks.png"
-                        alt="WearKart Project Screenshot"
-                      />
-                    </div>
-                    <Link className="details-btn" href="/portfolio-details">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-                <div className="portfolio-content">
-                  <h4>
-                    <Link href="/portfolio-details">Images Bazar.</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
+            <PortfolioProjectSmallSize
+              tagsArray={[
+                "React Native",
+                "Redux Toolkit",
+                "Redux Persist",
+                "Express Js",
+                "Node Js",
+                "Mysql",
+                "Socket.io",
+                "Formik",
+                "Payment Gateway",
+                "Dynamic Search",
+                "Dynamic Carousels",
+                "Dynamic Product Filters",
+              ]}
+              typeOfApp={"Android App"}
+              projectName={"WearKart"}
+              imgLink={"projects/WearKartAndroidApp.webp"}
+              // imgLink={"projects/WearKartApp.jpg"}
+              imageAlt="Sinbit Android APP Demostration"
+              projectLink="/projectDetails/wearkart-android"
+            />
+            <PortfolioProjectSmallSize
+              tagsArray={[
+                "Mern Stack",
+                "Redux Toolkit",
+                "Mysql",
+                "Crypto Currency Calculator",
+                "Responsive Design",
+                "Admin Panel",
+                "Blogs CRUD",
+              ]}
+              typeOfApp={"Blogging WebApp"}
+              projectName={"Sinbit Trades"}
+              imgLink={"projects/sinbit.png"}
+              imageAlt="Sinbit Project Demostration"
+              projectLink="/projectDetails/sinbit-trades"
+            />
+            <PortfolioProjectBigSize
+              tagsArray={[
+                "ReactJs",
+                "Django Rest Framework",
+                "Mysql",
+                "Responsive Design",
+                "Cart",
+                "Wishlist",
+                "Products CRUD",
+                "Admin Panel",
+                "Swagger Api Docs",
+              ]}
+              typeOfApp={"Ecommerce WebApp"}
+              projectName={"MobileKart"}
+              imgLink={"projects/mobilekart.png"}
+              imageAlt="Sinbit Project Demostration"
+              projectLink="/projectDetails/mobilekart"
+            />
+            <PortfolioProjectBigSize
+              tagsArray={["React Js", "Responsive Design", "Animation"]}
+              typeOfApp={"Website"}
+              projectName={"Personal Portfolio"}
+              imgLink={"projects/ajaypratapsingh.online.png"}
+              imageAlt="Personal Portfolio Project Demostration"
+              projectLink="/projectDetails/personal-portfolio"
+            />
+            {/* D:\Full Stack Project\themeforest\nextjs-files\axleo\public\projects */}
+            <PortfolioProjectSmallSize
+              tagsArray={[
+                "Mern Stack",
+                "Redux Toolkit",
+                "Aws",
+                "Mysql",
+                "Socket.io",
+                "Group Crud",
+                "Group Chatting",
+                "Responsive",
+                "Swagger API Documentation",
+              ]}
+              typeOfApp={"Web App"}
+              projectName={"Chatting App"}
+              imgLink={"projects/chattingHome.png"}
+              imageAlt="Chatting  Demostration"
+              projectLink="/projectDetails/chatting-app"
+            />
+            <PortfolioProjectSmallSize
+              tagsArray={[
+                "Mern Stack",
+                "React Native",
+                "Redux Toolkit",
+                "Charts",
+                "Mysql",
+                "Expenses Crud",
+                "Payment Gateway",
+                "Pagination",
+                "Filter Data",
+                "Swagger API Documentation",
+              ]}
+              typeOfApp={"Web & Android App"}
+              projectName={"Expense Tracker"}
+              imgLink={"projects/expenseTrackerDemostration.jpeg"}
+              imageAlt="Expense Tracker Project Demostration"
+              projectLink="/projectDetails/expense-tracker"
+            />
+            <PortfolioProjectBigSize
+              tagsArray={[
+                "Mern Stack",
+                "Redux Toolkit",
+                "React Native",
+                "Mysql",
+                "Appointment CRUD",
+                "Swagger API Documentation",
+              ]}
+              typeOfApp={"Web & Android App"}
+              projectName={"Appointment Booking"}
+              imgLink={"projects/appointmentBooking.jpeg"}
+              imageAlt="Appointment Booking"
+              projectLink="/projectDetails/appointment-booking"
+            />
           </div>
+          {/* appointmentBooking */}
 
           {/* <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">

@@ -49,19 +49,21 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
     <div className={`sidebar-area ${isMenuOpen ? "active" : ""}`}>
       <div className="sidebar-menu-top-area">
         <div className="sidebar-menu-logo">
-          <Link className="logo-dark" href="/">
-            <img
+          <Link className="logo-dark text-dark fs-4" href="/">
+            {/* <img
               alt="image"
               className="img-fluid"
               src="/assets/img/black-logo.svg"
-            />
+            /> */}
+            SinTech Works
           </Link>
-          <Link className="logo-light" href="/">
-            <img
+          <Link className="logo-light text-white fs-4" href="/">
+            {/* <img
               alt="image"
               className="img-fluid"
               src="/assets/img/white-logo.svg"
-            />
+            /> */}
+            SinTech Works
           </Link>
         </div>
         <div className="nav-right d-flex jsutify-content-end align-items-center">

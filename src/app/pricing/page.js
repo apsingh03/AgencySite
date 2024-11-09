@@ -2,9 +2,9 @@ import Footer3 from "@/components/Footer/Footer3";
 import Header from "@/components/header/Header";
 import React from "react";
 export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
+  title: "SinTech Works LLP",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "assets/img/downloaded/companyLogo.jpg",
   },
 };
 const page = () => {

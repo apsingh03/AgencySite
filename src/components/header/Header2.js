@@ -15,7 +15,11 @@ const Header2 = () => {
       <header className="header-area style-2">
         <div className="logo-and-menu">
           <div className="header-logo">
-            <Link href="/" className="text-white fs-4">
+            <Link
+              href="/"
+              className="text-white fs-4  fw-4"
+              style={{ fontWeight: "700" }}
+            >
               {/* <img
                 alt="image"
                 className="img-fluid"
@@ -48,18 +52,16 @@ const Header2 = () => {
                 </svg>
                 <ul className="sub-menu">
                   <li>
-                    <Link href="/portfolio-manonery">WebApp Development</Link>
+                    <Link href="#">WebApp Development</Link>
                   </li>
                   <li>
-                    <Link href="/portfolio-vertical-grid">
-                      Android Development
-                    </Link>
+                    <Link href="#">Android Development</Link>
                   </li>
                   <li>
-                    <Link href="/portfolio-vertical-grid">IOS Development</Link>
+                    <Link href="#">IOS Development</Link>
                   </li>
                   <li>
-                    <Link href="/portfolio-showcase">UI & UX Designing</Link>
+                    <Link href="#">UI & UX Designing</Link>
                   </li>
                 </ul>
               </li>

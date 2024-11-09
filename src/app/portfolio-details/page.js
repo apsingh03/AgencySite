@@ -12,6 +12,13 @@ import SwiperCore, {
 import Link from "next/link";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
+ const metadata = {
+  title: "SinTech Works LLP",
+  icons: {
+    icon: "assets/img/downloaded/companyLogo.jpg",
+  },
+};
+
 const PortfolioDetails = () => {
   const settings = useMemo(() => {
     return {
@@ -35,6 +42,8 @@ const PortfolioDetails = () => {
   return (
     <>
       <Header />
+
+      
       <div className="details-page-wrapper portfolio-details pt-130 pb-130">
         <div className="container-lg container-fluid">
           <div className="row g-lg-4 gy-5">

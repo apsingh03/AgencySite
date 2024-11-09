@@ -7,9 +7,9 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
+  title: "SinTech Works LLP",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "assets/img/downloaded/companyLogo.jpg",
   },
 };
 
