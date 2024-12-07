@@ -26,7 +26,7 @@ const Footer2 = () => {
                   <div className="col-xl-6 col-lg-6 col-md-8 d-flex justify-content-lg-start">
                     <div className="footer-widget">
                       <div className="subscribed-area">
-                        <h3>Don’t Missed Subscribed!</h3>
+                        <h3>Stay Connected</h3>
                         <form>
                           <div className="form-inner">
                             <input type="text" placeholder="Enter Email" />

@@ -13,8 +13,8 @@ const Home2BannerSection = () => {
                   className="text-animation2"
                   // style={{ fontSize: "40px", lineHeight: "5px" }}
                 >
-                  Empowering <span> Businesses</span> Innovative <br />{" "}
-                  <span>Software</span> Development.
+                  Empowering <span> Businesses</span> Through <br /> Innovative{" "}
+                  <br /> <span>Software</span> Development.
                 </h1>
                 <div className="banner-content">
                   <div className="vector-and-review  text-animation">
