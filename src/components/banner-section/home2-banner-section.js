@@ -13,8 +13,11 @@ const Home2BannerSection = () => {
                   className="text-animation2"
                   // style={{ fontSize: "40px", lineHeight: "5px" }}
                 >
+                  Empowering <br /> Businesses <br /> Through <br /> Innovative
+                  <br /> Software <br /> Development.
+                  {/*                   
                   Empowering <span> Businesses</span> Through <br /> Innovative{" "}
-                  <br /> <span>Software</span> Development.
+                  <br /> <span>Software</span> Development. */}
                 </h1>
                 <div className="banner-content">
                   <div className="vector-and-review  text-animation">
@@ -70,7 +73,8 @@ const Home2BannerSection = () => {
             <div className="col-xxl-4 col-xl-5 col-lg-5 d-lg-flex d-none">
               <div className="banner-img magnetic-item">
                 <img
-                  src="assets/img/downloaded/girlSittingOnChair.png"
+                  // src="assets/img/downloaded/girlSittingOnChair.png"
+                  src="assets/home2Bannernew.gif"
                   alt="It Service"
                 />
               </div>

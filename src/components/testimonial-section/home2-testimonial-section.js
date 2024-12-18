@@ -55,7 +55,7 @@ const Home2TestimonialSection = () => {
                       </div> */}
                       <div className="col-md-12">
                         <div className="testimonal-content">
-                          <span>Great Agency!</span>
+                          {/* <span>Great Agency!</span> */}
                           <p>
                             I had a fantastic experience working with Ajay for
                             my web development project. Their team was
@@ -88,7 +88,7 @@ const Home2TestimonialSection = () => {
                       </div> */}
                       <div className="col-md-12">
                         <div className="testimonal-content">
-                          <span>Great Agency!</span>
+                          {/* <span>Great Agency!</span> */}
                           <p>
                             I highly recommend STW for development works. They
                             delivered a high-quality website that was tailored
@@ -116,7 +116,7 @@ const Home2TestimonialSection = () => {
                       </div> */}
                       <div className="col-md-12">
                         <div className="testimonal-content">
-                          <span>Great Agency!</span>
+                          {/* <span>Great Agency!</span> */}
                           <p>
                             Good experience with the team for web development,
                             SEO, and design. They crafted a stunning website

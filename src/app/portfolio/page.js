@@ -58,6 +58,35 @@ const Portfolioesonary = () => {
                 "Dynamic Menus",
                 "Dynamic Product Filters",
                 "Real Time Order Tracking ",
+                "Skelton Ui",
+                "Debounce Search",
+                "We can control Everything from Admin Panel",
+              ]}
+              typeOfApp={"WebApp"}
+              projectName={"ElectroCart"}
+              imgLink={"projects/electrocart.webp"}
+              imageAlt="electroCart Project Demostration"
+              projectLink="/projectDetails/electrocart-webapp"
+            />
+
+            <PortfolioProjectSmallSize
+              tagsArray={[
+                "Mern Stack",
+                "Redux Toolkit",
+                "Mysql",
+                "AWS",
+                "Cart",
+                "Socket.io",
+                "Admin Panel",
+                "Payment Gateway",
+                "Responsive Design",
+
+                "Formik",
+                "Dynamic Carousels",
+                "WishList",
+                "Dynamic Menus",
+                "Dynamic Product Filters",
+                "Real Time Order Tracking ",
                 "Debounce Search",
                 "We can control Everything from Admin Panel",
               ]}
@@ -68,7 +97,7 @@ const Portfolioesonary = () => {
               projectLink="/projectDetails/wearkart-webapp"
             />
 
-            <PortfolioProjectSmallSize
+            <PortfolioProjectBigSize
               tagsArray={[
                 "React Native",
                 "Redux Toolkit",
@@ -106,7 +135,7 @@ const Portfolioesonary = () => {
               imageAlt="Sinbit Project Demostration"
               projectLink="/projectDetails/sinbit-trades"
             />
-            <PortfolioProjectBigSize
+            <PortfolioProjectSmallSize
               tagsArray={[
                 "ReactJs",
                 "Django Rest Framework",
@@ -133,7 +162,7 @@ const Portfolioesonary = () => {
               projectLink="/projectDetails/personal-portfolio"
             />
             {/* D:\Full Stack Project\themeforest\nextjs-files\axleo\public\projects */}
-            <PortfolioProjectSmallSize
+            <PortfolioProjectBigSize
               tagsArray={[
                 "Mern Stack",
                 "Redux Toolkit",
