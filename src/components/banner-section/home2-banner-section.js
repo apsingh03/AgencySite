@@ -7,7 +7,7 @@ const Home2BannerSection = () => {
       <div className="home2-banner-area">
         <div className="container-xl container-fluid">
           <div className="row">
-            <div className="col-xxl-8 col-xl-7 col-lg-7 d-flex align-items-center">
+            <div className="col-xxl-6 col-xl-6 col-lg-7 d-flex align-items-center">
               <div className="banner-content-wrap">
                 <h1
                   className="text-animation2"
@@ -70,7 +70,7 @@ const Home2BannerSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-4 col-xl-5 col-lg-5 d-lg-flex d-none">
+            <div className="col-xxl-6 col-xl-6 col-lg-5 d-lg-flex d-none">
               <div className="banner-img magnetic-item">
                 <img
                   // src="assets/img/downloaded/girlSittingOnChair.png"
