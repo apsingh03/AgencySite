@@ -74,7 +74,7 @@ const Home2BannerSection = () => {
               <div className="banner-img magnetic-item">
                 <img
                   // src="assets/img/downloaded/girlSittingOnChair.png"
-                  src="assets/home2Bannernew.gif"
+                  src="assets/home2Bannernew800800.gif"
                   alt="It Service"
                 />
               </div>
