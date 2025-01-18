@@ -1,8 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-
-
 const Footer3 = () => {
   return (
     <>
@@ -235,13 +233,16 @@ const Footer3 = () => {
                         <li className="single-contact">
                           <span>Phone</span>
                           <h5>
-                            <a href="tel:+919470839068">
-                              +91 - 947 083 9068
-                            </a>
+                            <a href="tel:+919470839068">+91 - 947 083 9068</a>
                           </h5>
                         </li>
                         <li className="single-contact">
                           <span>Email Now</span>
+                          <h5>
+                            <a href="mailto:contact@sintechworks.com">
+                              contact@sintechworks.com
+                            </a>
+                          </h5>
                           <h5>
                             <a href="mailto:info@examplegmail.com">
                               info@examplegmail.com

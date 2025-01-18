@@ -239,6 +239,11 @@ const Footer4 = () => {
                         <li className="single-contact">
                           <span>Email Now</span>
                           <h5>
+                            <a href="mailto:contact@sintechworks.com">
+                              contact@sintechworks.com
+                            </a>
+                          </h5>
+                          <h5>
                             <a href="mailto:info@examplegmail.com">
                               info@examplegmail.com
                             </a>
