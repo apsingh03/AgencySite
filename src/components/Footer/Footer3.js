@@ -235,8 +235,8 @@ const Footer3 = () => {
                         <li className="single-contact">
                           <span>Phone</span>
                           <h5>
-                            <a href="tel:+991-7636844563">
-                              +991 - 763 684 4563{" "}
+                            <a href="tel:+919470839068">
+                              +91 - 947 083 9068
                             </a>
                           </h5>
                         </li>
