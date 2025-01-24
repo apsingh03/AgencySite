@@ -40,7 +40,7 @@ const ContactPage = () => {
                             </svg>
                           </div>
                           <div className="info">
-                            <a href="tel:+918757001984">+91 875-700-1984</a>
+                            <a href="tel:+918757001984">+91 947-083-9068</a>
                           </div>
                         </li>
                         <li>
@@ -55,8 +55,11 @@ const ContactPage = () => {
                             </svg>
                           </div>
                           <div className="info">
-                            <a href="mailto:sintechworks05@gmail.com">
-                              sintechworks05@gmail.com
+                            <a href="mailto:contact@gmail.com">
+                              contact@sintechworks.com
+                            </a>
+                            <a href="mailto:sintechworks04@gmail.com">
+                              sintechworks04@gmail.com
                             </a>
                           </div>
                         </li>
@@ -105,10 +108,7 @@ const ContactPage = () => {
                           <label>
                             Phone Number <span>(Optional)</span>
                           </label>
-                          <input
-                            type="text"
-                            placeholder="+920- 5566 **** ****"
-                          />
+                          <input type="text" />
                         </div>
                       </div>
                       <div className="col-md-6">

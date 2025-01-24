@@ -126,7 +126,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                     <div className="contact">
                       <span>Phone</span>
                       <h6>
-                        <a href="tel:+91918757001984">+91 - 875 700 1984</a>
+                        <a href="tel:+91918757001984">+91 - 947 083 9068</a>
                       </h6>
                     </div>
                   </li>
@@ -143,9 +143,15 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                     </div>
                     <div className="contact">
                       <span>Email Now</span>
+
                       <h6>
-                        <a href="mailto:sintechworks05@gmail.com">
-                          sintechworks05@gmail.com
+                        <a href="mailto:contact@sintechworks.com">
+                          contact@sintechworks.com
+                        </a>
+                      </h6>
+                      <h6>
+                        <a href="mailto:sintechworks04@gmail.com">
+                          sintechworks04@gmail.com
                         </a>
                       </h6>
                     </div>

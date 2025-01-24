@@ -220,8 +220,8 @@ const Footer2 = () => {
                             </a>
                           </h5>
                           <h5>
-                            <a href="mailto:sintechworks05@gmail.com">
-                              sintechworks05@gmail.com
+                            <a href="mailto:sintechworks04@gmail.com">
+                              sintechworks04@gmail.com
                             </a>
                           </h5>
                         </li>
