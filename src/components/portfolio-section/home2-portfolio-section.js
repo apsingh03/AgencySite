@@ -26,8 +26,8 @@ const Home2PortfolioSection = () => {
                     </svg>
                   </Link>
                   <p>
-                    Offer a wide range of services to help businesses establish
-                    and enhance their online presence.
+                    We Offer a wide range of services to help businesses
+                    establish and enhance their online presence.
                   </p>
                 </div>
               </div>
@@ -41,23 +41,23 @@ const Home2PortfolioSection = () => {
                 <ul className="tag">
                   {[
                     "Mern Stack",
-                    "Redux Toolkit",
+                    "Redux",
                     "Mysql",
                     "AWS",
-                    "Cart",
-                    "Socket.io",
-                    "Admin Panel",
-                    "Payment Gateway",
-                    "Responsive Design",
-                    "Skelton Ui",
-                    "Formik",
-                    "Dynamic Carousels",
-                    "WishList",
-                    "Dynamic Menus",
-                    "Dynamic Product Filters",
-                    "Real Time Order Tracking ",
-                    "Debounce Search",
-                    "We can control Everything from Admin Panel",
+                    // "Cart",
+                    // "Socket.io",
+                    // "Admin Panel",
+                    // "Payment Gateway",
+                    // "Responsive Design",
+                    // "Skelton Ui",
+                    // "Formik",
+                    // "Dynamic Carousels",
+                    // "WishList",
+                    // "Dynamic Menus",
+                    // "Dynamic Product Filters",
+                    // "Real Time Order Tracking ",
+                    // "Debounce Search",
+                    // "We can control Everything from Admin Panel",
                   ].map((tag, idx) => {
                     return (
                       <li key={idx}>
@@ -94,7 +94,7 @@ const Home2PortfolioSection = () => {
               <div className="portfolio-content">
                 <h4>
                   <Link href="/projectDetails/electrocart-webapp">
-                    ElectroCart.
+                    Dynamic E-commerce WebApp
                   </Link>
                 </h4>
               </div>
@@ -107,22 +107,22 @@ const Home2PortfolioSection = () => {
                 <ul className="tag">
                   {[
                     "Mern Stack",
-                    "Redux Toolkit",
+                    "Redux",
                     "Mysql",
-                    "AWS",
-                    "Cart",
-                    "Socket.io",
-                    "Admin Panel",
-                    "Payment Gateway",
-                    "Responsive Design",
-                    "Formik",
-                    "Dynamic Carousels",
-                    "WishList",
-                    "Dynamic Menus",
-                    "Dynamic Product Filters",
-                    "Real Time Order Tracking ",
-                    "Debounce Search",
-                    "We can control Everything from Admin Panel",
+                    // "AWS",
+                    // "Cart",
+                    // "Socket.io",
+                    // "Admin Panel",
+                    // "Payment Gateway",
+                    // "Responsive Design",
+                    // "Formik",
+                    // "Dynamic Carousels",
+                    // "WishList",
+                    // "Dynamic Menus",
+                    // "Dynamic Product Filters",
+                    // "Real Time Order Tracking ",
+                    // "Debounce Search",
+                    // "We can control Everything from Admin Panel",
                   ].map((tag, idx) => {
                     return (
                       <li key={idx}>
@@ -158,7 +158,9 @@ const Home2PortfolioSection = () => {
               </div>
               <div className="portfolio-content">
                 <h4>
-                  <Link href="/projectDetails/wearkart-webapp">WearKart.</Link>
+                  <Link href="/projectDetails/wearkart-webapp">
+                    Responsive Apparel web-store.
+                  </Link>
                 </h4>
               </div>
             </div>
@@ -170,17 +172,17 @@ const Home2PortfolioSection = () => {
                 <ul className="tag">
                   {[
                     "React Native",
-                    "Redux Toolkit",
-                    "Redux Persist",
+                    "Redux ",
+                    // "Redux Persist",
                     "Express Js",
-                    "Node Js",
-                    "Mysql",
-                    "Socket.io",
-                    "Formik",
-                    "Payment Gateway",
-                    "Dynamic Search",
-                    "Dynamic Carousels",
-                    "Dynamic Product Filters",
+                    // "Node Js",
+                    // "Mysql",
+                    // "Socket.io",
+                    // "Formik",
+                    // "Payment Gateway",
+                    // "Dynamic Search",
+                    // "Dynamic Carousels",
+                    // "Dynamic Product Filters",
                   ].map((tag, idx) => {
                     return (
                       <li key={idx}>
@@ -216,7 +218,10 @@ const Home2PortfolioSection = () => {
               </div>
               <div className="portfolio-content">
                 <h4>
-                  <Link href="/projectDetails/wearkart-android">WearKart.</Link>
+                  <Link href="/projectDetails/wearkart-android">
+                    {" "}
+                    Robust Synchrosed App.
+                  </Link>
                 </h4>
               </div>
             </div>
@@ -227,12 +232,12 @@ const Home2PortfolioSection = () => {
                 <ul className="tag">
                   {[
                     "Mern Stack",
-                    "Redux Toolkit",
-                    "Mysql",
+                    // "Redux",
+                    // "Mysql",
                     "Crypto Currency Calculator",
-                    "Responsive Design",
-                    "Admin Panel",
-                    "Blogs CRUD",
+                    // "Responsive Design",
+                    // "Admin Panel",
+                    // "Blogs CRUD",
                   ].map((tag, idx) => {
                     return (
                       <li key={idx}>
@@ -268,7 +273,7 @@ const Home2PortfolioSection = () => {
               <div className="portfolio-content">
                 <h4>
                   <Link href="/projectDetails/sinbit-trades">
-                    Sinbit Trades.
+                    Engaging One Page Blog.
                   </Link>
                 </h4>
               </div>

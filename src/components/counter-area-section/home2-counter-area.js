@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 const Home2CounterArea = () => {
   return (
     <>
-      <div className="home2-counter-area mb-130">
+      <div className="home2-counter-area mb-130 ">
         <div className="container-lg container-fluid">
           <div className="row justify-content-center">
             <div className="col-lg-12">
@@ -65,7 +65,7 @@ const Home2CounterArea = () => {
         </div>
       </div>
       <div
-        className="home2-inner-banner"
+        className="home2-inner-banner d-none"
         style={{
           backgroundImage:
             "linear-gradient(90deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url(https://images.unsplash.com/photo-1687603917313-ccae1a289a9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
@@ -74,7 +74,7 @@ const Home2CounterArea = () => {
         {/* <div className="clutch-logo btn_wrapper">
           <img src="assets/img/home2/clitch-big.png"    alt="" />
         </div> */}
-        <div className="container-lg container-fluid">
+        <div className="container-lg container-fluid d-none ">
           <div className="row">
             <div className="col-lg-12">
               <div className="banner-content text-animation">

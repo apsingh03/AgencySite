@@ -53,8 +53,8 @@ const Footer2 = () => {
                       <div className="menu-container">
                         <ul>
                           <li>
-                            <Link href="/about">
-                              About Us
+                            <Link href="/">
+                              Home
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}
@@ -65,7 +65,7 @@ const Footer2 = () => {
                               </svg>
                             </Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="/our-team1">
                               Our Team
                               <svg
@@ -77,9 +77,9 @@ const Footer2 = () => {
                                 <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                               </svg>
                             </Link>
-                          </li>
+                          </li> */}
                           <li>
-                            <Link href="/portfolio-manonery">
+                            <Link href="/portfolio">
                               Our Portfolio
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ const Footer2 = () => {
                       <div className="menu-container">
                         <ul>
                           <li>
-                            <Link href="/service-details">
+                            <Link href="">
                               WebApp Development
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +130,8 @@ const Footer2 = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="/service-details">
-                              Android Development
+                            <Link href="">
+                              Android / Ios Development
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}
@@ -142,22 +142,10 @@ const Footer2 = () => {
                               </svg>
                             </Link>
                           </li>
+
                           <li>
-                            <Link href="/service-details">
-                              IOS Development
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={10}
-                                height={10}
-                                viewBox="0 0 10 10"
-                              >
-                                <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                              </svg>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/service-details">
-                              UI & UX Design
+                            <Link href="">
+                              Blockchain Development
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={10}
@@ -233,7 +221,7 @@ const Footer2 = () => {
               <div className="footer-btm">
                 <div className="copyright-area">
                   <p>
-                    Copyrights © 2024. All rights reserved | SinTech Works LLP
+                    Copyrights © 2025. All rights reserved | SinTech Works LLP
                   </p>
                 </div>
               </div>

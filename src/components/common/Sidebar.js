@@ -206,69 +206,19 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                     }`}
                   >
                     <li>
-                      <Link href="#">
-                        Web App Development
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={10}
-                          height={10}
-                          viewBox="0 0 10 10"
-                        >
-                          <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                        </svg>
-                      </Link>
+                      <Link href="#">Web App Development</Link>
                     </li>
                     <li>
-                      <Link href="#">
-                        Android Development
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={10}
-                          height={10}
-                          viewBox="0 0 10 10"
-                        >
-                          <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                        </svg>
-                      </Link>
+                      <Link href="#">Android Development</Link>
                     </li>
                     <li>
-                      <Link href="#">
-                        IOS Development
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={10}
-                          height={10}
-                          viewBox="0 0 10 10"
-                        >
-                          <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                        </svg>
-                      </Link>
+                      <Link href="#">IOS Development</Link>
                     </li>
                     <li>
-                      <Link href="#">
-                        UI & UX Designing
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={10}
-                          height={10}
-                          viewBox="0 0 10 10"
-                        >
-                          <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                        </svg>
-                      </Link>
+                      <Link href="#">UI & UX Designing</Link>
                     </li>
                     <li>
-                      <Link href="# ">
-                        Ecommerce Development
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={10}
-                          height={10}
-                          viewBox="0 0 10 10"
-                        >
-                          <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
-                        </svg>
-                      </Link>
+                      <Link href="# ">Ecommerce Development</Link>
                     </li>
                   </ul>
                 </li>

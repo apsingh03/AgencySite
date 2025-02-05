@@ -26,229 +26,65 @@ const Home2ServicesSection = () => {
           </div>
           <div className="services-wrapper">
             <div className="service-card">
-              <h3>1. Web Development</h3>
+              <h3>1. Blockchain Development</h3>
               <p>
-                Unlock your business's potential by leveraging the power of the
-                online world. From simple one-page websites to powerful
-                e-commerce platforms, we turn your bold ideas into reality with
-                expertise and creativity.
+                From smart contract development and NFTs to complex blockchain
+                games, our expert team delivers all your blockchain development
+                needs. We also specialize in content management and community
+                growth, ensuring the best results with our specialized
+                skills and experience.
               </p>
-              {/* <ul>
-                <li>
-                  <a href="#">Color</a>
-                </li>
-                <li>
-                  <a href="#">Design</a>
-                </li>
-                <li>
-                  <a href="#">Typography</a>
-                </li>
-                <li>
-                  <a href="#">Wireframe</a>
-                </li>
-                <li>
-                  <a href="#">Visual</a>
-                </li>
-              </ul> */}
-              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
-                Explore More
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={12}
-                  height={12}
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
-                </svg>
-                <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link> */}
             </div>
             <div className="service-card">
-              <h3>2. Android | IOS Development</h3>
+              <h3>2. Website Development</h3>
+              <p>
+                Unlock your business’s potential by harnessing the power of the
+                online world. From simple one-page websites to robust e-commerce
+                platforms, we bring your bold ideas to life with creativity,
+                innovation, technical expertise, and a commitment to excellence.
+              </p>
+            </div>
+            <div className="service-card">
+              <h3>3. Android | IOS Development</h3>
               <p>
                 Meet your business's app and game development needs with our
-                dedicated team of experienced developers, delivering high-end
-                UI/UX solutions tailored to your vision.
+                dedicated team of experienced developers. We deliver high-end
+                UI/UX solutions tailored to your vision, ensuring seamless
+                functionality, stunning visuals, user engagement, and an
+                exceptional digital experience that drives success.
               </p>
-              {/* <ul>
-                <li>
-                  <a href="#">Color</a>
-                </li>
-                <li>
-                  <a href="#">Design</a>
-                </li>
-                <li>
-                  <a href="#">Typography</a>
-                </li>
-                <li>
-                  <a href="#">Wireframe</a>
-                </li>
-                <li>
-                  <a href="#">Visual</a>
-                </li>
-              </ul> */}
-              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
-                Explore More
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={12}
-                  height={12}
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
-                </svg>
-                <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link> */}
             </div>
             <div className="service-card">
-              <h3>3. SEO Services & Marketing</h3>
+              <h3>4. SEO Services & Marketing</h3>
               <p>
                 Expand your footprint with our SEO and Social Media Marketing
                 services, strategically targeting your potential users through
-                web page optimization and tailored marketing strategies.
+                web page optimization, keyword research, content marketing, and
+                tailored strategies. We enhance visibility, drive engagement,
+                and maximize conversions to help your business
+                grow successfully.
               </p>
-              {/* <ul>
-                <li>
-                  <a href="#">Color</a>
-                </li>
-                <li>
-                  <a href="#">Design</a>
-                </li>
-                <li>
-                  <a href="#">Typography</a>
-                </li>
-                <li>
-                  <a href="#">Wireframe</a>
-                </li>
-                <li>
-                  <a href="#">Visual</a>
-                </li>
-              </ul> */}
-              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
-                Explore More
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={12}
-                  height={12}
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
-                </svg>
-                <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link> */}
             </div>
-            <div className="service-card">
-              <h3>4. Blockchain Development</h3>
-              <p>
-                Get all your blockchain development needs from smart contract
-                development to NFTs to complex blockchain games delivered by our
-                team.
-              </p>
-              {/* <ul>
-                <li>
-                  <a href="#">Color</a>
-                </li>
-                <li>
-                  <a href="#">Design</a>
-                </li>
-                <li>
-                  <a href="#">Typography</a>
-                </li>
-                <li>
-                  <a href="#">Wireframe</a>
-                </li>
-                <li>
-                  <a href="#">Visual</a>
-                </li>
-              </ul> */}
-              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
-                Explore More
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={12}
-                  height={12}
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
-                </svg>
-                <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link> */}
-            </div>
+
             <div className="service-card">
               <h3>5. Tech Consulting</h3>
               <p>
-                Elevate your business's technical landscape with us. Our
-                dedicated team of managers not only understands your needs but
-                also optimizes workflow and boosts customer retention, ensuring
-                seamless success every step of the way.
+                Elevate your business's technical landscape with our expert
+                team. Our dedicated managers not only understand your specific
+                needs but also optimize workflow, enhance productivity, and
+                boost customer retention. We ensure seamless success at every
+                stage, delivering consistent results for growth.
               </p>
-              {/* <ul>
-                <li>
-                  <a href="#">Color</a>
-                </li>
-                <li>
-                  <a href="#">Design</a>
-                </li>
-                <li>
-                  <a href="#">Typography</a>
-                </li>
-                <li>
-                  <a href="#">Wireframe</a>
-                </li>
-                <li>
-                  <a href="#">Visual</a>
-                </li>
-              </ul> */}
-              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
-                Explore More
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={12}
-                  height={12}
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
-                </svg>
-                <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link> */}
             </div>
             <div className="service-card">
               <h3>6. Branding & Design</h3>
               <p>
-                Hand in hand with our backend team, our frontend developers and
-                designers are dedicated to shaping your online presence and
-                branding. Together, we craft compelling designs that leave a
-                lasting impression.
+                Hand in hand with our backend team, our skilled frontend
+                developers and designers work tirelessly to shape your online
+                presence and branding. Together, we craft visually appealing,
+                user-friendly designs that make a lasting impression and drive
+                meaningful engagement.
               </p>
-              {/* <ul>
-                <li>
-                  <a href="#">Color</a>
-                </li>
-                <li>
-                  <a href="#">Design</a>
-                </li>
-                <li>
-                  <a href="#">Typography</a>
-                </li>
-                <li>
-                  <a href="#">Wireframe</a>
-                </li>
-                <li>
-                  <a href="#">Visual</a>
-                </li>
-              </ul> */}
-              {/* <Link className="primary-btn2 btn-hover" href="/service-details">
-                Explore More
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={12}
-                  height={12}
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
-                </svg>
-                <span style={{ top: "50.5px", left: "83.75px" }} />
-              </Link> */}
             </div>
           </div>
         </div>

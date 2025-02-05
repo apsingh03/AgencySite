@@ -22,7 +22,7 @@ const Portfolioesonary = () => {
             <div className="col-lg-12">
               <div className="section-title">
                 <h1>
-                  Our <span>Work</span>
+                  Our <span>Portfolio</span>
                 </h1>
                 <div className="dash-and-paragraph three">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 877 64">
@@ -113,7 +113,7 @@ const Portfolioesonary = () => {
                 "Dynamic Product Filters",
               ]}
               typeOfApp={"Android App"}
-              projectName={"WearKart"}
+              projectName={"WK Mobile App"}
               imgLink={"projects/WearKartAndroidApp.webp"}
               // imgLink={"projects/WearKartApp.jpg"}
               imageAlt="Sinbit Android APP Demostration"

@@ -51,7 +51,7 @@ const PortfolioProjectBigSize = ({
         </div>
         <div className="portfolio-content">
           <h4>
-            <Link href={projectLinkk}>{projectName}.</Link>
+            <Link href={projectLinkk}>{projectName}</Link>
           </h4>
         </div>
       </div>

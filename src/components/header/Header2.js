@@ -50,9 +50,10 @@ const Header2 = () => {
                 >
                   <path d="M18 4.95V10H13.0154V8.62143H15.7362L10.6962 3.50714L6.59769 7.65714L0 0.978571L0.962308 0L6.59769 5.71429L10.6962 1.56429L16.6154 7.57857V4.95H18Z" />
                 </svg>
+
                 <ul className="sub-menu">
                   <li>
-                    <Link href="#">WebApp Development</Link>
+                    <Link href="#">WebApp Development </Link>
                   </li>
                   <li>
                     <Link href="#">Android Development</Link>

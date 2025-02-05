@@ -105,7 +105,7 @@ const Home2TechnologySection = () => {
                         <span>Bootstrap</span>
                       </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                    {/* <div className="col-lg-3 col-md-3 col-sm-4 col-6">
                       <div className="single-technology btn_wrapper">
                         <div className="icon">
                           <img
@@ -117,7 +117,7 @@ const Home2TechnologySection = () => {
                         </div>
                         <span>Material UI</span>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-3 col-md-3 col-sm-4 col-6">
                       <div className="single-technology btn_wrapper">
                         <div className="icon">

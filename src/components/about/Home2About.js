@@ -12,13 +12,16 @@ const Home2About = () => {
         <div className="container-lg container-fluid">
           <div className="row mb-60">
             <div className="col-lg-12">
-              <div className="section-title three text-animation">
-                <h2>
+              <div className="section-title three text-animation ">
+                <h2 style={{ textAlign: "center" }}>
                   Understanding Your Needs
                   {/* <br />
                   <span>COMPANY</span> */}
                 </h2>
-                <div className="dash-and-paragraph three">
+                <div
+                  className="dash-and-paragraph three"
+                  style={{ paddingTop: 0 }}
+                >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 65">
                     <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM475 3L475.255 3.42984L476.82 2.5H475V3ZM438.668 65L441.872 60.197L436.111 59.8239L438.668 65ZM3 3.5H475V2.5H3V3.5ZM474.745 2.57016C459.928 11.3742 441.341 27.8789 438.461 60.47L439.457 60.5581C442.3 28.3895 460.613 12.1303 475.255 3.42984L474.745 2.57016Z" />
                   </svg>
@@ -37,7 +40,7 @@ const Home2About = () => {
             </div>
           </div>
           <div className="row g-lg-4 gy-5">
-            <div className="col-lg-5">
+            <div className="col-lg-4">
               <div className="counter-and-btn">
                 <ul className="counter-wrap">
                   <li className="single-counter">
@@ -144,7 +147,7 @@ const Home2About = () => {
                     </div>
                   </li>
                 </ul>
-                <Link href="/about">
+                <Link href="#">
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -169,29 +172,26 @@ const Home2About = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-7">
-              <div className="row g-4">
+            <div className="col-lg-8">
+              {/* <div className="row g-4">
                 <div className="col-sm-5">
                   <div className="about-left">
                     <div className="about-img animet-images magnetic-item">
-                      <img
-                        src="assets/img/downloaded/section2NeedsSmall.jpg"
-                        alt=""
-                      />
+                    
                     </div>
-                    {/* <p className="text-animation2">
-                      Some may focus on specific niches, such as healthcare or
-                      e-commerce, while others may offer a comprehensive.
-                    </p> */}
+                 
                   </div>
                 </div>
-                <div className="col-sm-7 d-sm-flex  d-none">
-                  <div className="about-right-img animet-images magnetic-item">
-                    <img
-                      src="assets/img/downloaded/section2NeedsLarge.jpg"
-                      alt=""
-                    />
-                  </div>
+               
+              </div> */}
+
+              <div className="col-sm-7  justify-self-center">
+                <div className=" ">
+                  <img
+                    // src="assets/img/downloaded/girlSittingOnChair.png"
+                    src="assets/Programmer.gif"
+                    alt="It Service"
+                  />
                 </div>
               </div>
             </div>
