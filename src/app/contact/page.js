@@ -24,9 +24,9 @@ const ContactPage = () => {
                 <div className="row">
                   <div className="col-xl-12 col-md-6">
                     <div className="single-location mb--30">
-                      <div className="title">
+                      {/* <div className="title">
                         <h4>Bihar , India</h4>
-                      </div>
+                      </div> */}
                       <ul>
                         <li>
                           <div className="icon">

@@ -21,20 +21,20 @@ const Portfolioesonary = () => {
           <div className="row mb-130">
             <div className="col-lg-12">
               <div className="section-title">
-                <h1>
+                <h1 className="text-center">
                   Our <span>Portfolio</span>
                 </h1>
                 <div className="dash-and-paragraph three">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 877 64">
                     <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM875 3L875.271 3.42013L876.697 2.5H875V3ZM842.084 64L845.265 59.1819L839.502 58.836L842.084 64ZM3 3.5H875V2.5H3V3.5ZM874.729 2.57987C861.302 11.2438 844.485 27.4669 841.856 59.4675L842.852 59.5494C845.45 27.938 862.03 11.9643 875.271 3.42013L874.729 2.57987Z"></path>
                   </svg>
-                  <div className="btn-and-paragraph">
-                    {/* <span>Selected work * (2020-2024)</span> */}
+                  {/* <div className="btn-and-paragraph">
+                   
                     <p>
                       Creating a concise and effective design studio brief is
                       crucial for outlining your business, its services.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

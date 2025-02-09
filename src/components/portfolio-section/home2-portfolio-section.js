@@ -220,7 +220,7 @@ const Home2PortfolioSection = () => {
                 <h4>
                   <Link href="/projectDetails/wearkart-android">
                     {" "}
-                    Robust Synchrosed App.
+                    Robust Synchronised App.
                   </Link>
                 </h4>
               </div>
