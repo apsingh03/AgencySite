@@ -9,12 +9,13 @@ const Home2PortfolioSection = () => {
           <div className="col-lg-12">
             <div className="section-title text-animation">
               <h2>
-                Explore our Portfolio <span>20 + </span>
+                Explore our Portfolio
+                {/* <span>20 + </span> */}
               </h2>
               <div className="dash-and-paragraph three">
                 <div className="dash" />
                 <div className="btn-and-paragraph">
-                  <Link href="/portfolio">
+                  <Link href="#">
                     Explore Portfolio
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +80,7 @@ const Home2PortfolioSection = () => {
                     />
                   </div>
 
-                  <Link className="details-btn" href="/portfolio-details">
+                  <Link className="details-btn" href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -144,7 +145,7 @@ const Home2PortfolioSection = () => {
                     />
                   </div>
 
-                  <Link className="details-btn" href="/portfolio-details">
+                  <Link className="details-btn" href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -204,7 +205,7 @@ const Home2PortfolioSection = () => {
                       alt="Sinbit Android APP Demostration"
                     />
                   </div>
-                  <Link className="details-btn" href="/portfolio-details">
+                  <Link className="details-btn" href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -258,7 +259,7 @@ const Home2PortfolioSection = () => {
                       alt="Sinbit Project Demostration"
                     />
                   </div>
-                  <Link className="details-btn" href="/portfolio-details">
+                  <Link className="details-btn" href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -338,7 +339,7 @@ const Home2PortfolioSection = () => {
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <div className="load-more-btn btn_wrapper">
-                <Link href="/portfolio" className="circle-btn btn-hover">
+                <Link href="#" className="circle-btn btn-hover">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={12}
