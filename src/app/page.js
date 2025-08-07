@@ -27,7 +27,7 @@ export default function Home() {
       <Home2BannerSection />
       <Home2About />
       <Home2ServicesSection />
-      <Home2CounterArea />
+      {/* <Home2CounterArea /> */}
       <Home2ProcessSection />
       {/* <Home2PortfolioSection /> */}
       <Home2TestimonialSection />
